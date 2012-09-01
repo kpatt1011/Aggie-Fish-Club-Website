@@ -1,0 +1,6 @@
+<div class="about_me_text">
+<div class="intro_text">Name:</div>&nbsp;Ashley Grimm '14 <br /><br />
+<div class="intro_text">Major:</div>&nbsp;International Studies<br /><br />
+<div class="intro_text">Hometown:</div> &nbsp;Houston, Texas<br /><br />
+<div class="intro_text">AFC Taught Me:</div>&nbsp;<br /><br />
+</div>

@@ -1,0 +1,6 @@
+<div class="about_me_text">
+<div class="intro_text">Name:</div>&nbsp;Shelby Kager  ’15  (Development and Outreach Committee)<br /><br />
+<div class="intro_text">Major:</div>&nbsp;: Kinesiology<br /><br />
+<div class="intro_text">Hometown:</div>&nbsp;Amarillo, TX <br /><br />
+<div class="intro_text">AFC Taught Me:</div>&nbsp; I am in love with the way AFC provides an atmosphere that everyone is accepted in. This atmosphere sets us up with a home away from home, a place to feel comfortable. <br /><br />
+</div>

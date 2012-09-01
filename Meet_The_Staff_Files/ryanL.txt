@@ -1,0 +1,6 @@
+<div class="about_me_text">
+<div class="intro_text">Name:</div>&nbsp;Ryan Lawrence  ’15  (Fundraising)<br /><br />
+<div class="intro_text">Major:</div>&nbsp;: Microbiology<br /><br />
+<div class="intro_text">Hometown:</div>&nbsp;Georgetown, TX<br /><br />
+<div class="intro_text">AFC Taught Me:</div>&nbsp; My favorite aspect of AFC is the friendship and camaraderie that we have with each other. I have met my best friends in AFC and I am so thankful that AFC has given me that opportunity. I also love how close AFC makes you with one another and the lifelong friendships that it builds. AFC RULES! <br /><br />
+</div>

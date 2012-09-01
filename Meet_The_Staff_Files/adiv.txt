@@ -1,0 +1,6 @@
+<div class="about_me_text">
+<div class="intro_text">Name:</div>&nbsp;Adiv Sulaiman '15 (Old Army Relations)<br /><br />
+<div class="intro_text">Major:</div>&nbsp;: Petroleum Engineering<br /><br />
+<div class="intro_text">Hometown:</div>&nbsp;The Woodlands, TX<br /><br />
+<div class="intro_text">AFC Taught Me: </div>&nbsp; That every single person belongs, regardless of what it may seem. AFC has taught me to forget about presumptions and judgment, because everybody has got something to offer.<br /><br />
+</div>

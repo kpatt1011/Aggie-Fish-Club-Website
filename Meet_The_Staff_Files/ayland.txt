@@ -1,0 +1,6 @@
+<div class="about_me_text">
+<div class="intro_text">Name:</div>&nbsp;Ayland Letsinger ’15  (Service)<br /><br />
+<div class="intro_text">Major:</div>&nbsp;: Kinesiology <br /><br />
+<div class="intro_text">Hometown:</div>&nbsp;Brackettville, TX <br /><br />
+<div class="intro_text">AFC Taught Me:</div>&nbsp; I love the fact that I am obsessed with the people in AFC so much in addition to the fact that we have closer bonds than any of our friends elsewhere. I have grown closer to these people in a mere year than I have with some in my entire life!<br /><br />
+</div>

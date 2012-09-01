@@ -1,0 +1,6 @@
+<div class="about_me_text">
+<div class="intro_text">Name:</div> &nbsp;Chris "Hemi" Hemingson '14<br /><br />
+<div class="intro_text">Major:</div>&nbsp;Wildlife and Fisheries<br /><br />
+<div class="intro_text">Hometown:</div>&nbsp;Friendswood, Texas <br /><br />
+<div class="intro_text">AFC Taught Me:</div>&nbsp;To never be of afraid of being myself (see video at top), because here at A&M we're all Aggies.<br /><br />
+</div>

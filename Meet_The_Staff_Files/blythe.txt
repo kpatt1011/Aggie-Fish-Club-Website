@@ -1,0 +1,6 @@
+<div class="about_me_text">
+<div class="intro_text">Name:</div>&nbsp;Blythe Beavers  ’15  (Committee of Internal Affairs) <br /><br />
+<div class="intro_text">Major:</div>&nbsp;: Food Science <br/><br />
+<div class="intro_text">Hometown:</div>&nbsp; North Richland Hills, TX <br /><br />
+<div class="intro_text">AFC Taught Me: </div>&nbsp;<br /><br />
+</div>

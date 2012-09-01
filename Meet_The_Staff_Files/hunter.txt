@@ -1,0 +1,6 @@
+<div class="about_me_text">
+<div class="intro_text">Name:</div>&nbsp;Hunter Beck  ’15  (Special Activities Committee)<br /><br />
+<div class="intro_text">Major:</div>&nbsp;: Business <br /><br />
+<div class="intro_text">Hometown:</div>&nbsp;Bryan, TX <br /><br />
+<div class="intro_text">AFC Taught Me:</div>&nbsp; I absolutely love hanging out with everyone! Whether it is a service or work project, or a get together at someone's house, a sporting event, or even fun times at the rec, I just love spending time with everyone and getting to know everyone! I legitimately wish all of AFC could be my roommates next year!! <br /><br />
+</div>

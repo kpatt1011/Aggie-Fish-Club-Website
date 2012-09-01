@@ -1,0 +1,9 @@
+<div class="about_me_text">
+<div class="intro_text">Name:</div>&nbsp;Catie Barsalou '13<br /><br />
+<div class="intro_text">Major:</div>&nbsp;Psychology<br /><br />
+<div class="intro_text">Hometown:</div> &nbsp;Houston, Texas<br /><br />
+<div class="intro_text">AFC Taught Me:</div>&nbsp;to be open and accepting of new ideas and new people.  It also 
+taught me that stepping out of my comfort zone is more fun than scary. It taught
+me how to become a leader and how to have fun doing it. It's also taught me 
+much, much more and given me incredible and lasting friendships!<br /><br />
+</div>

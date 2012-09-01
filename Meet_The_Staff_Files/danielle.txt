@@ -1,0 +1,6 @@
+<div class="about_me_text">
+<div class="intro_text">Name:</div>&nbsp;Danielle Berger  ’15  (Public Relations)<br /><br />
+<div class="intro_text">Major:</div>&nbsp;: Industrial Engineering <br/><br />
+<div class="intro_text">Hometown:</div>&nbsp; Allen, TX <br /><br />
+<div class="intro_text">AFC Taught Me: </div>&nbsp; My favorite parts about AFC are the lifelong friendships I've made because of it. Many people have talked about it, and it sounds so surreal, but that's because everyone really does find their calling in this organization. People outside of AFC have asked me if this is the FLO where everyone is a family. I don't know why it works, but it seems like every year, AFC brings different people together and they all become best friends.<br /><br />
+</div>

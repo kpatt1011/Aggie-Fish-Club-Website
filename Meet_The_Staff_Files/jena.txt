@@ -1,0 +1,6 @@
+<div class="about_me_text">
+<div class="intro_text">Name:</div>&nbsp;Jena Boyd  ’15  (Special Activities Committee)<br /><br />
+<div class="intro_text">Major:</div>&nbsp;: Community Health <br /><br />
+<div class="intro_text">Hometown:</div>&nbsp;Round Rock, TX<br /><br />
+<div class="intro_text">AFC Taught Me:</div>&nbsp; I love that even though we are all so different and come from unique backgrounds, we all seem to click when we come together. We're one big happy family! I also love that AFC people can always make me smile when I am having a bad day. I feel like any of us would be willing to lend a hand to help each other out at any time and that is what makes us such great friends  <br /><br />
+</div>

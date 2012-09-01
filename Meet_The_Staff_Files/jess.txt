@@ -1,0 +1,6 @@
+<div class="about_me_text">
+<div class="intro_text">Name:</div>&nbsp;Jess Summerford ’15 (Fundraising)<br /><br />
+<div class="intro_text">Major:</div>&nbsp;: RPTS Youth Development<br /><br />
+<div class="intro_text">Hometown:</div>&nbsp;Allen, TX<br /><br />
+<div class="intro_text">AFC Taught Me: </div>&nbsp; I love these people. I've never met such fun & wonderful people and I'm proud to call them my best friends!<br /><br />
+</div>

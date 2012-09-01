@@ -1,0 +1,8 @@
+<div class="about_me_text">
+<div class="intro_text">Name:</div>&nbsp;Alex Adam '13 <br /><br />
+<div class="intro_text">Major:</div>&nbsp;Communication<br /><br />
+<div class="intro_text">Hometown:</div> &nbsp;Southlake, Texas<br /><br />
+<div class="intro_text">AFC Taught Me:</div>&nbsp;how to stand up and accomplish things you never 
+<br /> thought you could do.  AFC challenged me to do my best at everything 
+<br />not only for myself but for others as well.<br /><br />
+</div>

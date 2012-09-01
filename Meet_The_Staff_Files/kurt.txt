@@ -1,0 +1,6 @@
+<div class="about_me_text">
+<div class="intro_text">Name:</div>&nbsp;Kurt Parizek  ’15  (Committee of Internal Affairs)<br /><br />
+<div class="intro_text">Major:</div>&nbsp;: Biomedical Engineering <br /><br />
+<div class="intro_text">Hometown:</div>&nbsp;The Woodlands, TX<br /><br />
+<div class="intro_text">AFC Taught Me:</div>&nbsp; Every single person in AFC is different in their own way, but everybody gets along so amazingly well. You have known these people for less than a year, but it feels as though you have been with them your entire life. <br /><br />
+</div>

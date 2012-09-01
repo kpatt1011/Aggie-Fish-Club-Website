@@ -1,0 +1,6 @@
+<div class="about_me_text">
+<div class="intro_text">Name:</div>&nbsp;Elijah Wood  ’15  (Development and Outreach Committee)<br /><br />
+<div class="intro_text">Major:</div>&nbsp;: Architecture <br /><br />
+<div class="intro_text">Hometown:</div>&nbsp; El Campo, TX <br /><br />
+<div class="intro_text">AFC Taught Me:</div>&nbsp; I love being able to walk through the commons and see someone from AFC at all hours of the day. These people are always so supportive and very strong, and will ultimately shape who you become in these early stages of college. <br /><br />
+</div>

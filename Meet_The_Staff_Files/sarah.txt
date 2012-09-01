@@ -1,0 +1,6 @@
+<div class="about_me_text">
+<div class="intro_text">Name:</div>&nbsp;Sarah Pruski '15 (Old Army Relations)<br /><br />
+<div class="intro_text">Major:</div>&nbsp;: Biology<br /><br />
+<div class="intro_text">Hometown:</div>&nbsp;Dallas, TX<br /><br />
+<div class="intro_text">AFC Taught Me: </div>&nbsp; My favorite aspect of AFC is definitely the people. I have never met more weirdos in my life and I absolutely love every minute I've spent with them.<br /><br />
+</div>

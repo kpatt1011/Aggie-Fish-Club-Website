@@ -1,0 +1,6 @@
+<div class="about_me_text">
+<div class="intro_text">Name:</div>&nbsp;Rob Ferguson '13<br /><br />
+<div class="intro_text">Major:</div>&nbsp;Industrial Systems Engineering<br /><br />
+<div class="intro_text">Hometown:</div> &nbsp;Spring, Texas<br /><br />
+<div class="intro_text">AFC Taught Me:</div>&nbsp;Mah<br /><br />
+</div>

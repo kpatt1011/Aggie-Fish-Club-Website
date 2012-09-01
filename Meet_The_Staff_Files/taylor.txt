@@ -1,0 +1,6 @@
+<div class="about_me_text">
+<div class="intro_text">Name:</div>&nbsp;Taylor Stanush ’15  (Service)<br /><br />
+<div class="intro_text">Major:</div>&nbsp;: Business <br /><br />
+<div class="intro_text">Hometown:</div>&nbsp;Bulverde, TX<br /><br />
+<div class="intro_text">AFC Taught Me:</div>&nbsp;<br /><br />
+</div>

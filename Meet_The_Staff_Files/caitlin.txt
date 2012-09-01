@@ -1,0 +1,6 @@
+<div class="about_me_text">
+<div class="intro_text">Name:</div>&nbsp;Caitlin Campbell '14 <br /><br />
+<div class="intro_text">Major:</div>&nbsp;Physics<br /><br />
+<div class="intro_text">Hometown:</div> &nbsp;Plano, Texas<br /><br />
+<div class="intro_text">AFC Taught Me:</div>&nbsp;How to see all the amazing qualities in everyone. Each and every person is incredibly special and worth getting to know!<br /><br />
+</div>
