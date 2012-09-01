@@ -1,0 +1,33 @@
+.about_me_box
+{
+    background:#356f18;
+     border:5px groove #356f18;
+      width:600px; 
+     height:280px;
+     padding-left:10px;
+      padding-right:10px;
+      padding-top:10px;
+       text-align:left;
+       float:right;
+       white-space:normal;
+}
+
+
+
+.intro_text
+{
+font-size:13pt; 
+font-family:veranda; 
+font-style:oblique; 
+font-weight:500;
+color:#d5cf34;
+
+}
+
+.about_me_text
+{
+ color:white;
+ font-family:verdana;
+ font-size:11pt;
+ font-weight:400;
+}

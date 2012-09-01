@@ -1,0 +1,923 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Test Page</title>
+
+ <style type="text/css">
+  
+
+    
+    body{
+margin:0;
+padding:0;
+width:100%;
+height:100%;
+white-space: nowrap; /* Stops text and images from wrapping when the browser window size is decreased/increased */
+line-height: 1.5em;
+background: rgb(74, 74, 74);
+}
+
+  #contentcolumn{
+/*margin-left: 120px; /*Set left margin to LeftColumnWidth*/
+background: rgb(74, 74, 74);
+width: 1246px;
+height:100%;
+white-space:nowrap;
+text-align:center;
+padding-bottom: 4px ;
+}
+    
+    .side_button 
+    {
+    border: 10px outset rgb(53,130,24); 
+    width: 76px; 
+    height: 68px;
+    background:white;
+    }
+    
+    .button_image
+    {
+    width: 76px; 
+    height: 68px;
+    }
+    
+    #topsection{
+background: rgb(53,111,24); /* Official AFC shade of green for the top and left sections */
+height: 90px; /*Height of top section*/
+width: 1450px;
+border-bottom-color: rgb(40,111,15); 
+border-bottom-style: ridge; 
+border-bottom-width: thick;
+white-space:nowrap;
+}
+
+#topsection h1
+{
+     float: left; 
+        white-space: nowrap;
+        padding-top: 15px;
+        margin: 0;
+        margin-right:-100%;
+    }
+    
+    #leftcolumn /* Defines the style of the left side column */
+{
+float: left;
+width: 120px; /*Width of left column*/
+height: 100%;
+border-right-color:rgb(40,111,15); 
+border-right-style:ridge;
+border-right-width:thick; 
+background: #356f18;
+text-align:right;
+}
+
+#footer{
+clear: left;
+width: 1450px;
+background: black;
+color: #FFF;
+text-align: center;
+padding: 4px ;
+}
+    
+  
+ 
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="flexdropdown.css" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="flexdropdown.js">
+
+    /***********************************************
+    * Flex Level Drop Down Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+    * This notice MUST stay intact for legal use
+    * Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+    ***********************************************/
+
+</script>
+
+
+
+
+ <script type="text/javascript" src="https://www.google.com/jsapi?key=ABQIAAAA92EwMVmX4LDJpP-8yHWN1RQZnWYiKcrRupXLocHJXPM35Tis1RR4sfKDt9iGddd2hD_sNsXTzRX7zw"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+
+</head>
+
+<body>
+<div id="topsection">
+<h1>
+&nbsp;&nbsp; &nbsp;&nbsp;
+&nbsp;&nbsp; &nbsp; 
+<img style="width: 375px; height: 71px;" alt="Aggie Fish Club" src="Universal_Files/name.png"/>
+<img style="width: 74px; height: 67px;" alt="" src="Universal_Files/logo.png" align="top"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
+&nbsp;&nbsp; &nbsp; &nbsp; 
+&nbsp;&nbsp; &nbsp; &nbsp;
+&nbsp;&nbsp; &nbsp; &nbsp; 
+&nbsp;
+<img style="width: 197px; height: 52px; top: 0px; left: 0px;" 
+        alt="" src="Universal_Files/your_life.png" align="top"/>
+<a href="http://tamu.edu">
+<img style="border-style: groove; border-color: #FFFFFF; border-width: medium; width: 165px; height: 40px; top: 0px; left: 0px;" 
+        alt="" src="Universal_Files/A&amp;M%20Logo.gif" align="top"/>
+</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</h1>
+
+</div>
+
+<div id="contentcolumn">
+<div id="leftcolumn">
+<br />
+<ul id="flexmenu1" class="flexdropdownmenu">
+<li><a href="What_Is_AFC_Files/What_is_AFC.html">Overview</a></li>
+<li><a href="Committees_Files/Committees.html">Committees</a></li>
+<li><a href="Buddy_Huddle_Files/Buddy_Huddles.html">Buddy Huddles</a></li>
+<li><a href="History_Files/History.html">History</a></li>
+<li><a href="#">Events</a>
+</li>
+</ul>
+<ul id="flexmenu2" class="flexdropdownmenu">
+<li><a href="Ol_Army_Files/Ol_Army.html">What is Ol' Army?</a></li>
+<li><a href="AFC_1011_Files/AFC_1011.html">AFC 10/11</a></li>
+<li><a href="#">AFC 09:10</a></li>
+<li><a href="#">AFC 08-09</a></li>
+</li>
+</ul>
+<a href="../newsite/index.html">
+<div class="side_button">
+<img class="button_image" src="Universal_Files/home.png" alt="Home" />
+</div>
+</a>
+<br/>
+<a href="What_Is_AFC_Files/What_is_AFC.html" data-flexmenu="flexmenu1"  data-dir="h"  >
+<div class="side_button">
+<img class="button_image" alt="" src="Universal_Files/what_is_afc.png"/>
+</div>
+</a>
+<br/>
+<a href="Meet_The_Staff_Files/Meet_the_Staff.html">
+<div class="side_button">
+<img class="button_image" alt="" src="Universal_Files/meet_the_staff.png"/>
+</div>
+</a>
+<br/>
+<a href="Ol_Army_Files/Ol_Army.html" data-flexmenu="flexmenu1" data-dir="h" >
+<div class="side_button">
+<img class="button_image" alt="" src="Universal_Files/ol_army.png"/>
+</div>
+</a>
+<br />
+<!--Breaks below extend the left bar to the bottom of the page-->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <br />
+<br>
+<script type="text/javascript">    filltext(15)</script>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    </div>
+
+<br/>
+<br/><br/>
+<div style="height:349px; width:425px; float:right;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<iframe src="http://www.youtube.com/embed/CuGXY9mTzTU" frameborder="0" height="349" width="425">
+</iframe>
+</div>
+<div style=" white-space:nowrap; text-align: center; font-weight: 450; font-family:Lucida Sans Unicode; font-style: italic; font-size:275%; color:white;  ">
+&nbsp;&nbsp;&nbsp;&nbsp;Apply Online Today!!
+<br /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://flos.tamu.edu/" style=" text-align: left; font-weight: 200; font-family:Lucida Sans Unicode;
+     font-style: italic; font-size:80%; color:white;">
+flos.tamu.edu
+</a>
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img style="transform:rotate(-7deg);
+-ms-transform:rotate(-7deg); /* IE 9 */
+-moz-transform:rotate(-7deg); /* Firefox */
+-webkit-transform:rotate(-7deg); /* Safari and Chrome */
+-o-transform:rotate(-7deg); /* Opera */ 
+width: 274px; height: 174px;" alt="" src="Kitchen.png"/>
+&nbsp;&nbsp;&nbsp;&nbsp;
+ <img style="transform:rotate(7deg);
+-ms-transform:rotate(7deg); /* IE 9 */
+-moz-transform:rotate(7deg); /* Firefox */
+-webkit-transform:rotate(7deg); /* Safari and Chrome */
+-o-transform:rotate(7deg); /* Opera */
+ width: 273px; height: 205px; border: 4px solid white;" alt="" src="SuperBowl.png" />
+
+ <br/>
+<br/>
+<br />
+<div style="text-align:left;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img style="  width: 313px; height: 208px; border: 2px solid white; "alt=""  src="Spring_Retreat.png"/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="Tradition.png" alt="" style="border: 0px solid; vertical-align:top; width: 417px; height: 56px;  " />
+
+
+</div>
+</div>
+
+
+<br/>
+
+
+
+<img style="width: 450px; height: 97px;" alt="" src="Universal_Files/InfoBox.png"/>
+<br/>
+
+
+
+
+
+
+
+
+
+
+&nbsp;"There's a difference between interest and commitment. When you're&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    <br />
+    interested in doing something, you do it only when 
+    <br />
+    circumstance permit
+When you're committed to something, 
+you<br />
+&nbsp;accept no excuses, just results." 
+    <br />
+    -Art Turock- <br /></th>
+
+
+
+
+</div>
+
+
+
+
+</body>
+
+<script type="text/javascript">
+    $(".button_image").mouseenter(function () {
+        $(this).fadeTo(0, 0.25);
+        $(this).animate({ borderWidth: "20px" }, 1000);
+    });
+
+   
+</script>
+<script type="text/javascript">
+    $(".button_image").mouseleave(function () {
+        $(this).fadeTo(0, 1.00);
+    });
+</script>
+
+</html>
+
+
+<table style="width: 662px; height: 724px; text-align: left; margin-left: auto; margin-right: auto;" border="0" cellpadding="2" cellspacing="2">
+<tbody>
+
+
+<td style="text-align: center;"><font style="font-family: Californian FB; font-weight: bold;" size="+2"><span style="color: white;">The
+Counselors: <br>
+The Ecstatic Sophomores!</span></font></td>
+
+
+
+
+<td style="text-align: center;"><img style="width: 203px; height: 270px;" alt="" src="Emily_Staff_Pic.jpg"></td>
+<span style="color: white;"><span style="font-weight: bold;">Name:
+
+<span style="font style="font-family: Californian FB; font-weight: bold;" size="+2"><span style="color: white;">
+Name: Emily Maire '14 (Archives)<br />
+Major:  Liberal Arts<br />
+Hometown: Flower Mound, Texas<br />
+AFC Taught Me: daffds<br />
+</span>
+
+<br>
+<br>
+<br>
+<br>
+</span></td>
+</tr>
+<tr>
+<td><span style="color: rgb(74, 74, 74);">.</span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;"><img style="width: 201px; height: 270px;" alt="" src="Keith_Staff_Pic.jpg"></td>
+<td><span style="color: white;"><span style="font-weight: bold;">Name:
+&nbsp;&nbsp;</span> <br>
+<br>
+<span style="font-weight: bold;">Major: <br>
+<br>
+<span style="font-weight: bold;">Hometown:<br>
+<br>
+<span style="font-weight: bold;">AFC Taught Me:</span></span></span></span></td>
+<td></td>
+<td><span style="color: white;"><br>
+<br>
+</span><span style="color: white;">Keith
+Pattison
+'14 (Archives)<br>
+<br>
+Computer Science<br>
+<br>
+Fort Worth, Texas</span><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</td>
+</tr>
+<tr>
+<td><span style="color: rgb(74, 74, 74);">.</span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;"><img style="width: 187px; height: 270px;" alt="" src="Megan_Staff_Pic.jpg"></td>
+<td><span style="color: white;"><span style="font-weight: bold;">Name:
+&nbsp;&nbsp;</span> <br>
+<br>
+<span style="font-weight: bold;">Major: <br>
+<br>
+<span style="font-weight: bold;">Hometown:<br>
+<br>
+<span style="font-weight: bold;">AFC Taught Me:</span></span></span></span></td>
+<td></td>
+<td style="white-space: nowrap;"><span style="color: white;">Megan King '14 (Special Activites
+Committee)<br>
+<br>
+General Studies <br>
+<br>
+Arlington, Texas<br>
+<br>
+<br>
+<br>
+<br>
+</span></td>
+</tr>
+<tr>
+<td><span style="color: rgb(74, 74, 74);">.</span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;"><img style="width: 202px; height: 270px;" alt="" src="Hemi_Staff_Pic.jpg"></td>
+<td><span style="color: white;"><span style="font-weight: bold;">Name:
+&nbsp;&nbsp;</span> <br>
+<br>
+<span style="font-weight: bold;">Major: <br>
+<br>
+<span style="font-weight: bold;">Hometown:<br>
+<br>
+<span style="font-weight: bold;">AFC Taught Me:</span></span></span></span></td>
+<td></td>
+<td style="white-space: nowrap;"><span style="color: white;">Chistopher
+Hemingson '14 (Special Activities Committee)<br>
+<br>
+Wildlife and Fisheries<br>
+<br>
+Friendswood, Texas<br>
+<br>
+<br>
+<br>
+<br>
+</span></td>
+</tr>
+<tr>
+<td><span style="color: rgb(74, 74, 74);">.</span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;"><img style="width: 201px; height: 270px;" alt="" src="Ashley_Staff_Pic.jpg"></td>
+<td><span style="color: white;"><span style="font-weight: bold;">Name:
+&nbsp;&nbsp;</span> <br>
+<br>
+<span style="font-weight: bold;">Major: <br>
+<br>
+<span style="font-weight: bold;">Hometown:<br>
+<br>
+<span style="font-weight: bold;">AFC Taught Me:</span></span></span></span></td>
+<td></td>
+<td><span style="color: white;">Ashley Grimm
+'14 (Service)<br>
+<br>
+General Studies<br>
+<br>
+Houston, Texas<br>
+<br>
+<br>
+<br>
+<br>
+</span></td>
+</tr>
+<tr>
+<td><span style="color: rgb(74, 74, 74);">.</span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;"><img style="width: 203px; height: 270px;" alt="" src="Blake_Staff_Pic.jpg"></td>
+<td><span style="color: white;"><span style="font-weight: bold;">Name:
+&nbsp;&nbsp;</span> <br>
+<br>
+<span style="font-weight: bold;">Major: <br>
+<br>
+<span style="font-weight: bold;">Hometown:<br>
+<br>
+<span style="font-weight: bold;">AFC Taught Me:</span></span></span></span></td>
+<td></td>
+<td><span style="color: white;">Blake
+Baldridge '14 (Service)<br>
+<br>
+Business<br>
+<br>
+Plano, Texas<br>
+<br>
+<br>
+<br>
+<br>
+</span></td>
+</tr>
+<tr>
+<td><span style="color: rgb(74, 74, 74);">.</span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;"><img style="width: 188px; height: 270px;" alt="" src="Julia_Staff_Pic.jpg"></td>
+<td><span style="color: white;"><span style="font-weight: bold;">Name:
+&nbsp;&nbsp;</span> <br>
+<br>
+<span style="font-weight: bold;">Major: <br>
+<br>
+<span style="font-weight: bold;">Hometown:<br>
+<br>
+<span style="font-weight: bold;">AFC Taught Me:</span></span></span></span></td>
+<td></td>
+<td><span style="color: white;">Julia Pollack
+'14 (Public Relations)<br>
+<br>
+Zoology<br>
+<br>
+Hunington Beach, CA<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</span></td>
+</tr>
+<tr>
+<td><span style="color: rgb(74, 74, 74);">.</span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;"><img style="width: 228px; height: 270px;" alt="" src="Rusty_Staff_Pic.jpg"></td>
+<td><span style="color: white;"><span style="font-weight: bold;">Name:
+&nbsp;&nbsp;</span> <br>
+<br>
+<span style="font-weight: bold;">Major: <br>
+<br>
+<span style="font-weight: bold;">Hometown:<br>
+<br>
+<span style="font-weight: bold;">AFC Taught Me:</span></span></span></span></td>
+<td></td>
+<td style="white-space: nowrap;"><span style="color: white;">Taylor
+"Rusty" Rust '14 (Public Relations)</span><br style="color: white;">
+<br style="color: white;">
+<span style="color: white;">Applied Mathematics</span><br>
+<br style="color: white;">
+<span style="color: white;">Jersey Village, Texas<br>
+<br>
+<br>
+<br>
+<br>
+</span></td>
+</tr>
+<tr>
+<td><span style="color: rgb(74, 74, 74);">.</span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;"><img style="width: 220px; height: 270px;" alt="" src="Brittany_Staff_Pic.jpg"></td>
+<td><span style="color: white;"><span style="font-weight: bold;">Name:
+&nbsp;&nbsp;</span> <br>
+<br>
+<span style="font-weight: bold;">Major: <br>
+<br>
+<span style="font-weight: bold;">Hometown:<br>
+<br>
+<span style="font-weight: bold;">AFC Taught Me:</span></span></span></span></td>
+<td></td>
+<td style="white-space: nowrap;"><span style="color: white;">Brittany
+McConville '14 (Fundraising)</span><br>
+<br>
+<span style="color: white;">General Studies<br>
+<br>
+Singapore<br>
+<br>
+<br>
+<br>
+<br>
+</span></td>
+</tr>
+<tr>
+<td><span style="color: rgb(74, 74, 74);">.</span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">.<img style="width: 201px; height: 270px;" alt="" src="Jordan_Staff_Pic.jpg"></td>
+<td><span style="color: white;"><span style="font-weight: bold;">Name:
+&nbsp;&nbsp;</span> <br>
+<br>
+<span style="font-weight: bold;">Major: <br>
+<br>
+<span style="font-weight: bold;">Hometown:<br>
+<br>
+<span style="font-weight: bold;">AFC Taught Me:</span></span></span></span></td>
+<td></td>
+<td><span style="color: white;">Jordan Rhodes
+'14 (Fundraising)</span><br style="color: white;">
+<br style="color: white;">
+<span style="color: white;">Kinesiology</span><br style="color: white;">
+<br style="color: white;">
+<span style="color: white;">Waco, Texas<br>
+<br>
+<br>
+<br>
+<br>
+</span></td>
+</tr>
+<tr>
+<td><span style="color: rgb(74, 74, 74);">.</span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;"><img style="width: 203px; height: 270px;" alt="" src="Michelle_Staff_Pic.jpg"></td>
+<td><span style="color: white;"><span style="font-weight: bold;">Name:
+&nbsp;&nbsp;</span> <br>
+<br>
+<span style="font-weight: bold;">Major: <br>
+<br>
+<span style="font-weight: bold;">Hometown:<br>
+<br>
+<span style="font-weight: bold;">AFC Taught Me:</span></span></span></span></td>
+<td></td>
+<td><span style="color: white;">Michelle
+Grzybowski '14 (Committee of Internal Affairs)</span><br style="color: white;">
+<br style="color: white;">
+<span style="color: white;">Biology</span><br style="color: white;">
+<br style="color: white;">
+<span style="color: white;">Dallas, Texas<br>
+<br>
+<br>
+<br>
+<br>
+</span></td>
+</tr>
+<tr>
+<td><span style="color: rgb(74, 74, 74);">.</span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;"><img style="width: 203px; height: 270px;" alt="" src="Cary_Staff_Pic.jpg"></td>
+<td><span style="color: white;"><span style="font-weight: bold;">Name:
+&nbsp;&nbsp;</span> <br>
+<br>
+<span style="font-weight: bold;">Major: <br>
+<br>
+<span style="font-weight: bold;">Hometown:<br>
+<br>
+<span style="font-weight: bold;">AFC Taught Me:</span></span></span></span></td>
+<td></td>
+<td><span style="color: white;">Cary Ramos '14
+(</span><span style="color: white;">Committee of
+Internal Affairs</span><span style="color: white;">)<br>
+<br>
+Oil Money<br>
+<br>
+The Hoodlands, Texas<br>
+<br>
+<br>
+<br>
+<br>
+</span></td>
+</tr>
+<tr>
+<td><span style="color: rgb(74, 74, 74);">.</span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;"><img style="width: 270px; height: 203px;" alt="" src="Caitlin_Staff_Pic.jpg"></td>
+<td><span style="color: white;"><span style="font-weight: bold;">Name:
+&nbsp;&nbsp;</span> <br>
+<br>
+<span style="font-weight: bold;">Major: <br>
+<br>
+<span style="font-weight: bold;">Hometown:<br>
+<br>
+<span style="font-weight: bold;">AFC Taught Me:</span></span></span></span></td>
+<td></td>
+<td style="white-space: nowrap;"><span style="color: white;">Caitlin
+Campbell '14 (Development and Outreach Committee)</span><br style="color: white;">
+<br style="color: white;">
+<span style="color: white;">Physics</span><br style="color: white;">
+<br style="color: white;">
+<span style="color: white;">Plano, Texas<br>
+<br>
+<br>
+<br>
+<br>
+</span></td>
+</tr>
+<tr>
+<td><span style="color: rgb(74, 74, 74);">.</span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;"><img style="width: 203px; height: 270px;" alt="" src="Kerry_Staff_Pic.jpg"></td>
+<td><span style="color: white;"><span style="font-weight: bold;">Name:
+&nbsp;&nbsp;</span> <br>
+<br>
+<span style="font-weight: bold;">Major: <br>
+<br>
+<span style="font-weight: bold;">Hometown:<br>
+<br>
+<span style="font-weight: bold;">AFC Taught Me:</span></span></span></span></td>
+<td></td>
+<td style="white-space: nowrap;"><span style="color: white;">Kerry Bodner '14 (</span><span style="color: white;">Development and Outreach Committee</span><span style="color: white;">)<br>
+<br>
+Business<br>
+<br>
+McAllen, Texas<br>
+<br>
+<br>
+<br>
+<br>
+</span></td>
+</tr>
+<tr>
+<td><span style="color: rgb(74, 74, 74);">.</span>.</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><span style="color: rgb(74, 74, 74);">.</span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><span style="color: rgb(74, 74, 74);">.</span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><font style="font-family: Californian FB; color: white;" size="+3"><span style="font-weight: bold;">The Directors</span></font></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;"><img style="width: 203px; height: 270px;" alt="" src="Alex_Staff_Picture.jpg"></td>
+<td><span style="color: white;"><span style="font-weight: bold;">Name:
+&nbsp;&nbsp;</span> <br>
+<br>
+<span style="font-weight: bold;">Major: <br>
+<br>
+<span style="font-weight: bold;">Hometown:<br>
+<br>
+<span style="font-weight: bold;">AFC Taught Me:<br>
+<br>
+</span></span></span></span></td>
+<td></td>
+<td><span style="color: white;"><br>
+<br>
+<br>
+<br>
+Alex Adam '13 <br>
+<br>
+Communication<br>
+<br>
+Southlake, Texas<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</span></td>
+</tr>
+<tr>
+<td style="text-align: center;"><img style="width: 203px; height: 270px;" alt="" src="Catie_Staff_Pic.jpg"></td>
+<td><span style="color: white;"><span style="font-weight: bold;">Name:
+&nbsp;&nbsp;</span> <br>
+<br>
+<span style="font-weight: bold;">Major: <br>
+<br>
+<span style="font-weight: bold;">Hometown:<br>
+<br>
+<span style="font-weight: bold;">AFC Taught Me:<br>
+<br>
+</span></span></span></span></td>
+<td></td>
+<td><span style="color: white;"><br>
+<br>
+<br>
+<br>
+Catie Barsalou
+'13<br>
+<br>
+Psychology<br>
+<br>
+Houston, Texas<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</span></td>
+</tr>
+<tr>
+<td style="text-align: center;"><img style="width: 203px; height: 270px;" alt="" src="Rob_Staff_Pic.jpg"></td>
+<td><span style="color: white;"><span style="font-weight: bold;"><br>
+<br>
+Name:
+&nbsp;&nbsp;</span><br>
+<br>
+<span style="font-weight: bold;">Major: <br>
+<span style="font-weight: bold;"><br>
+Hometown:<br>
+<br>
+<span style="font-weight: bold;">AFC Taught Me:<br>
+<br>
+<br>
+<br>
+<br>
+</span></span></span></span></td>
+<td></td>
+<td><span style="color: white;"><br>
+Rob Ferguson
+'13<br>
+<br>
+Industrial Systems Engineering<br>
+<br>
+Spring, Texas<br>
+<br>
+Mah<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</span></td>
+</tr>
+<tr>
+<td style="text-align: center;"><img style="width: 203px; height: 270px;" alt="" src="Jedgar_Staff_Pic.jpg"></td>
+<td><span style="color: white;"><span style="font-weight: bold;"><br>
+<br>
+Name:
+&nbsp;&nbsp;</span> <br>
+<br>
+<span style="font-weight: bold;">Major: <br>
+<br>
+<span style="font-weight: bold;">Hometown:<br>
+<br>
+<span style="font-weight: bold;">AFC Taught Me:<br>
+<br>
+<br>
+<br>
+<br>
+</span></span></span></span></td>
+<td></td>
+<td><span style="color: white;"><br>
+Jonathan Edgar
+'12<br>
+<br>
+Petroleum Engineering<br>
+<br>
+Sugarland, Texas<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</span></td>
+</tr>
+<tr>
+<td style="text-align: center;"><img style="width: 202px; height: 270px;" alt="" src="Jackie_Staff_Pic.png"></td>
+<td><span style="color: white;"><span style="font-weight: bold;">Name:
+&nbsp;&nbsp;</span> <br>
+<br>
+<span style="font-weight: bold;">Major: <br>
+<br>
+<span style="font-weight: bold;">Hometown:<br>
+<br>
+<span style="font-weight: bold;">AFC Taught Me:<br>
+<br>
+</span></span></span></span></td>
+<td></td>
+<td><span style="color: white;"><br>
+<br>
+<br>
+Jackie Sherman
+'12</span><br style="color: white;">
+<br style="color: white;">
+<span style="color: white;">Education</span><br style="color: white;">
+<br style="color: white;">
+<span style="color: white;">McKinney, Texas</span><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br style="color: white;">
+<br>
+</td>
+</tr>
+</tbody>
+</table>

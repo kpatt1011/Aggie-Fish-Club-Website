@@ -1,0 +1,42 @@
+﻿
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<link rel="stylesheet" type="text/css" href="Committees_Files/committees.css" />
+<link type="text/css" href="jqueryui/css/custom-theme/jquery-ui-1.8.23.custom.css" rel="stylesheet" />
+<script type="text/javascript" src="jqueryui/js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="jqueryui/js/jquery-ui-1.8.23.custom.min.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+        $("#tabs").tabs({
+            ajaxOptions: {
+                error: function (xhr, status, index, anchor) {
+                    $(anchor.hash).html(
+						"Couldn't load this tab. We'll try to fix this as soon as possible. ");
+                }
+            }
+        });
+    });
+	</script>
+   
+
+ <div id="tabs" style="background: #f0ece2;">
+	<ul>
+		<li><a href="Committees_Files/ajax/Cia.html">C.I.A.</a></li>
+		<li><a href="Committees_Files/ajax/Fundraising.html">Fundraising</a></li>
+		<li><a href="Committees_Files/ajax/Public_Relations.html">Public Relations</a></li>
+        <li><a href="Committees_Files/ajax/Sac.html">Special Activites</a></li>
+        <li><a href="Committees_Files/ajax/Oar.html">OAR</a></li>
+        <li><a href="Committees_Files/ajax/Service.html">Service</a></li>
+        <li><a href="Committees_Files/ajax/Doc.html">DOC</a></li>
+	</ul>
+
+ </div>
+
+
+    
+
+

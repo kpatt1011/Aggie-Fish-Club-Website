@@ -1,0 +1,311 @@
+﻿body {
+
+background: #F0FFFF;
+}
+
+   
+#contentcolumn {
+        
+   min-height: 100%;
+ 
+   max-width: 100%;
+
+   position: relative;
+   
+   background:  #F0FFFF;
+}
+
+
+    #topsection
+    {
+        
+    background: #006400; /* Official AFC shade of green for the top and left sections */
+
+    height: 110px; /*Height of top section*/
+    width:100%;
+    
+    border-bottom-color: rgb(40,111,15); 
+    border-bottom-style: ridge; 
+    border-bottom-width: thick;
+    position:relative;
+    
+    white-space:nowrap;
+    
+     max-width: 100%;
+     
+
+}
+
+#topsection h1
+{
+     float: left; 
+        white-space: nowrap;
+        padding-top: 15px;
+        margin: 0;
+        margin-right:-100%;
+        position: relative;
+       
+    }
+
+
+.fluid_image
+{
+    width:100%;
+    position: relative;
+}
+
+/* Columns B have two columns*/
+div.columnsB {
+    
+       box-sizing:border-box;
+       -moz-box-sizing:border-box; /* Firefox */
+       -webkit-box-sizing:border-box; /* Safari */
+       width:50%;
+       float: left;
+       text-align:center;
+       padding: 20px;
+    
+}
+
+/* Columns C has three columns*/
+div.columnsC {
+    
+       box-sizing:border-box;
+       -moz-box-sizing:border-box; /* Firefox */
+       -webkit-box-sizing:border-box; /* Safari */
+       width: 33%;
+       float: left;
+       text-align:center;
+       padding: 20px;
+}
+
+/* Columns D has 4 column */
+
+div.columnsD {
+      box-sizing:border-box;
+       -moz-box-sizing:border-box; /* Firefox */
+       -webkit-box-sizing:border-box; /* Safari */
+       width: 25%;
+       float: left;
+       text-align:center;
+       padding: 20px;
+}
+    
+
+  
+
+#footer
+{
+   
+clear: left;
+min-width: 100%;
+border-top:6px ridge rgba(0, 0, 0, .1);
+background-color: rgba(0, 0, 0, .1);
+color: Black;
+text-align: center;
+padding: 4px;
+margin-top:50%;
+position: relative;
+
+
+
+}
+
+/* Nav Bar Style */
+
+#nav {
+	margin: 0;
+	padding: 7px 6px 0;
+	line-height: 100%;
+    max-width: 100%;
+	
+	background:  #B0C4DE; /* for non-css3 browsers */
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#CCFFFF', endColorstr='#B0C4DE'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from( #CCFFFF), to(  #B0C4DE)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,   #CCFFFF,    #B0C4DE); /* for firefox 3.6+ */
+	border: solid 1px #6d6d6d;
+    
+   
+}
+#nav li {
+	margin: 0 5px;
+	padding: 0 0 8px;
+	float: left;
+	position: relative;
+	list-style: none;
+}
+
+
+/* main level link */
+#nav a {
+	font-weight: bold;
+	color: Black;
+	text-decoration: none;
+	display: block;
+	padding:  8px 20px;
+	margin: 0;
+	-webkit-border-radius: 1.6em;
+	-moz-border-radius: 1.6em;
+
+	
+}
+
+/* main level link hover */
+#nav .current a, #nav li:hover > a {
+	background: #0099CC; /* for non-css3 browsers */
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#CCFFFF', endColorstr='#0099CC'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#CCFFFF), to(#0099CC)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #CCFFFF,  #0099CC); /* for firefox 3.6+ */
+
+	color: Black;
+	border-top: solid 1px #f8f8f8;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .8);
+}
+w
+/* sub levels link hover */
+#nav ul li:hover a, #nav li:hover li a {
+	background: none;
+	border: none;
+	color: Black;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+#nav ul a:hover {
+	background: #0399d4 !important; /* for non-css3 browsers */
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#04acec', endColorstr='#B0C4DE'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#04acec), to(#B0C4DE)) !important; /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #04acec,  #B0C4DE) !important; /* for firefox 3.6+ */
+
+	color: #fff !important;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+}
+/* level 2 list */
+#nav ul {
+	background: #ddd; /* for non-css3 browsers */
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#B0C4DE'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#B0C4DE)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #fff,  #B0C4DE); /* for firefox 3.6+ */
+
+	display: none;
+	margin: 0;
+	padding: 0;
+	width: 185px;
+	position: absolute;
+	top: 35px;
+	left: 0;
+	border: solid 1px #b4b4b4;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+}
+/* dropdown */
+#nav li:hover > ul {
+	display: block;
+   z-index:1;
+     
+}
+#nav ul li {
+	float: none;
+	margin: 0;
+	padding: 0;
+      position: relative;
+  z-index:1;
+   
+     
+}
+#nav ul a {
+	font-weight: normal;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, .9);
+      position: relative;
+      z-index:1;
+    
+}
+/* level 3+ list */
+#nav ul ul {
+	left: 181px;
+	top: -3px;
+
+}
+/* rounded corners for first and last child */
+#nav ul li:first-child > a {
+	-webkit-border-top-left-radius: 9px;
+	-moz-border-radius-topleft: 9px;
+	-webkit-border-top-right-radius: 9px;
+	-moz-border-radius-topright: 9px;
+}
+#nav ul li:last-child > a {
+	-webkit-border-bottom-left-radius: 9px;
+	-moz-border-radius-bottomleft: 9px;
+	-webkit-border-bottom-right-radius: 9px;
+	-moz-border-radius-bottomright: 9px;
+}
+/* clearfix */
+#nav:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+#nav {
+	display: inline-block;
+}
+html[xmlns] #nav {
+	display: block;
+}
+* html #nav {
+	height: 1%;
+}
+
+
+
+
+.about_me_box
+{
+    background:#006400;
+     border:5px groove #356f18;
+      width:600px; 
+     height:280px;
+     padding-left:10px;
+      padding-right:10px;
+      padding-top:10px;
+       text-align:left;
+       float:right;
+       white-space:normal;
+}
+
+
+
+.intro_text
+{
+font-size:14pt; 
+font-family:veranda; 
+font-style: italic;
+font-weight:500;
+color:#B0C4DE;
+
+}
+
+.about_me_text
+{
+ color:white;
+ font-family:verdana;
+ font-size:12pt;
+ font-weight:300;
+}
+    
+
+    
+
+  
+
+
