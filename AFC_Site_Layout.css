@@ -307,6 +307,23 @@ color:#B0C4DE;
  font-size:12pt;
  font-weight:300;
 }
+
+.committee_box
+{
+   width:450px; 
+  height:350px;
+     padding-left:10px;
+      padding-right:10px;
+      padding-top:10px;
+       text-align:center;
+   
+       white-space:normal;
+       font-size:10pt; 
+font-family:veranda; 
+text-align:center;
+font-style:oblique; 
+font-weight:700;    
+}
     
 
     
