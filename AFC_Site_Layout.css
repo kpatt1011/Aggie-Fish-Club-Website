@@ -35,6 +35,7 @@ background: #F0FFFF;
     white-space:nowrap;
     
      max-width: 100%;
+   
      
 
 }
@@ -121,14 +122,19 @@ position: relative;
 	margin: 0;
 	padding: 7px 6px 0;
 	line-height: 100%;
+    width: 100%;
     max-width: 100%;
+    
+     position: relative;
+  
 	
 	background:  #B0C4DE; /* for non-css3 browsers */
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#CCFFFF', endColorstr='#B0C4DE'); /* for IE */
 	background: -webkit-gradient(linear, left top, left bottom, from( #CCFFFF), to(  #B0C4DE)); /* for webkit browsers */
 	background: -moz-linear-gradient(top,   #CCFFFF,    #B0C4DE); /* for firefox 3.6+ */
 	border: solid 1px #6d6d6d;
-    width: 100%;
+   
+    
     
    
 }
@@ -324,7 +330,36 @@ text-align:center;
 font-style:oblique; 
 font-weight:700;    
 }
+
+.image_border 
+{
+    border: 3px ridge #B0C4DE;
+}
+
+.about_sidebar {
     
+   
+ 
+    background: #CCFFFF !important; 
+
+    box-sizing:border-box;
+     -moz-box-sizing:border-box; /* Firefox */
+     -webkit-box-sizing:border-box; /* Safari */
+     width:25%;
+       float: right;
+       text-align:left;
+       padding: 20px;
+       
+    -moz-border-radius: 15px;
+     border-radius: 15px;
+     border: 2px ridge #CCFFFF;
+     
+     font-size: 14pt;
+     font-weight: 500;
+     
+     color: #6d6d6d;
+}
+
 
     
 
