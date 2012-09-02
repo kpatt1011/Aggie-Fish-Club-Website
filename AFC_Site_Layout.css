@@ -4,6 +4,8 @@ background: #F0FFFF;
   min-height: 100%;
 }
 
+
+
    
 #contentcolumn {
         
@@ -126,6 +128,7 @@ position: relative;
 	background: -webkit-gradient(linear, left top, left bottom, from( #CCFFFF), to(  #B0C4DE)); /* for webkit browsers */
 	background: -moz-linear-gradient(top,   #CCFFFF,    #B0C4DE); /* for firefox 3.6+ */
 	border: solid 1px #6d6d6d;
+    width: 100%;
     
    
 }
