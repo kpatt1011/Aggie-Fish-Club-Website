@@ -26,17 +26,19 @@ var AFC_1011_Girls_Button;
 
 function changeCurrentPage(page) {
 
-    $currentPage.removeClass("current");
+    currentPage.removeClass("current");
 
     currentPage = page;
 
-    $currentPage.addClass("current");
+    currentPage.addClass("current");
 
 
 }
 
 $(window).load(function() {
 
+    $('#topsection').load('header.html');
+    $('#footer').load('footer.html');
     contentcolumn.load('main_page.html');
 
     home_nav = $('#home_nav');
@@ -67,7 +69,7 @@ $(window).load(function() {
 
 });
 
-$(home_nav).click(function () {
+$('#home_nav').click(function () {
 
 
     contentcolumn.load('main_page.html');
@@ -77,7 +79,7 @@ $(home_nav).click(function () {
 });
 
 
-$(committees_nav).click(function () {
+$('#committees_nav').click(function () {
 
 
     contentcolumn.load('Committees_Files/committee_info.html');
@@ -85,7 +87,7 @@ $(committees_nav).click(function () {
     changeCurrentPage(what_is_afc_nav);
 });
 
-$(meet_the_staff_nav).click(function () {
+$('#meet_the_staff_nav').click(function () {
 
 
     contentcolumn.load('Meet_The_Staff_Files/Meet_the_Staff.html');
@@ -94,28 +96,28 @@ $(meet_the_staff_nav).click(function () {
 });
 
 
-$(overview_nav).click(function () {
+$('#overview_nav').click(function () {
 
     contentcolumn.load('What_Is_AFC_Files/What_is_AFC.html');
 
     changeCurrentPage(what_is_afc_nav);
 });
 
-$(buddy_huddle_nav).click(function () {
+$('#buddy_huddle_nav').click(function () {
 
     contentcolumn.load('Buddy_Huddle_Files/Buddy_Huddles.html');
 
     changeCurrentPage(what_is_afc_nav);
 });
 
-$(history_nav).click(function () {
+$('#history_nav').click(function () {
 
     contentcolumn.load('History_Files/History.html');
 
     changeCurrentPage(what_is_afc_nav);
 });
 
-$(events_nav).click(function () {
+$('#events_nav').click(function () {
 
     contentcolumn.load('Events_Files/Events.html');
 
@@ -123,13 +125,13 @@ $(events_nav).click(function () {
 
 });
 
-$(afc_11_12_nav).click(function () {
+$('#afc_11_12_nav').click(function () {
 
 
 
 });
 
-$(afc_10_11_nav).click(function () {
+$('#afc_10_11_nav').click(function () {
 
 
     contentcolumn.load('AFC_1011_Files/AFC_1011.html');
@@ -138,14 +140,14 @@ $(afc_10_11_nav).click(function () {
 
 });
 
-$(afc_09_10_nav).click(function () {
+$('#afc_09_10_nav').click(function () {
 
 
 
 });
 
 
-$(AFC_1011_Staff_Button).click(function () {
+$('#AFC_1011_Staff_Button').click(function () {
 
     contentcolumn.load('AFC_1011_Files/AFC_1011_Staff_Files/AFC1011_Staff.htm');
 
@@ -155,7 +157,7 @@ $(AFC_1011_Staff_Button).click(function () {
 });
 
 
-$(AFC_1011_Boys_Button).click(function () {
+$('#AFC_1011_Boys_Button').click(function () {
 
     contentcolumn.load('AFC_1011_Files/AFC_1011_Boys_Files/AFC_1011_Boys.html');
 
@@ -165,7 +167,7 @@ $(AFC_1011_Boys_Button).click(function () {
 });
 
 
-$(AFC_1011_Girls_Button).click(function () {
+$('#AFC_1011_Girls_Button').click(function () {
 
     contentcolumn.load('AFC_1011_Files/AFC_1011_Girls_Files/AFC_1011_Girls.html');
 
